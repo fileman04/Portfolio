@@ -21,9 +21,22 @@
         flex-direction: row;
         justify-content: space-evenly;
         width: 100%;
-        & > a:hover{
-            border-radius: 5px;
-            
+        & > a{
+            text-decoration: none;
+            color: aqua;
+            padding: 10px;
+        &:hover{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            background-color: rgb(33, 47, 48);
         }
+        &.on-page{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            background-color: rgb(33, 47, 48);
+        }
+        }
+
 }
+      
 
