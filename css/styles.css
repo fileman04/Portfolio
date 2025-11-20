@@ -1,9 +1,12 @@
 /* This is the styles page */
 
 .g-base{
+    display: flex;
     background-color: rgb(33, 47, 48);
     color: rgb(19, 160, 253);
     font-size: 1.5rem;
+    height: 100%;
+    margin: 0;
 }
 
 .g-header{
@@ -25,18 +28,33 @@
             text-decoration: none;
             color: aqua;
             padding: 10px;
-        &:hover{
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
-            background-color: rgb(33, 47, 48);
-        }
-        &.on-page{
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
-            background-color: rgb(33, 47, 48);
-        }
+            &:hover{
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                background-color: rgb(33, 47, 48);
+            }
+            &.on-page{
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                background-color: rgb(33, 47, 48);
+            }
         }
 
+}
+
+
+.g-footer{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(5, 4, 75);
+    & > #s-socials a{
+        text-decoration: none;
+        color: aqua;
+        padding: 10px 10px 0 10px;
+    }
 }
       
 
