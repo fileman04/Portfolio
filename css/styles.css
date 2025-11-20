@@ -1,1 +1,29 @@
 /* This is the styles page */
+
+.g-base{
+    background-color: rgb(33, 47, 48);
+    color: rgb(19, 160, 253);
+    font-size: 1.5rem;
+}
+
+.g-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(5, 4, 75);
+}
+
+.g-header #s-navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        & > a:hover{
+            border-radius: 5px;
+            
+        }
+}
+
