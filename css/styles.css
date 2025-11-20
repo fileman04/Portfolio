@@ -1,7 +1,6 @@
 /* This is the styles page */
 
 .g-base{
-    display: flex;
     background-color: rgb(33, 47, 48);
     color: rgb(19, 160, 253);
     font-size: 1.5rem;
@@ -42,6 +41,12 @@
 
 }
 
+.g-main{
+    margin: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    height:100%;
+}
 
 .g-footer{
     display: flex;
@@ -55,6 +60,14 @@
         color: aqua;
         padding: 10px 10px 0 10px;
     }
+}
+
+#p-home #s-content{
+    margin-right: 15px;
+}
+
+#p-WebApps main{
+    font-size: 2.5rem;
 }
       
 
