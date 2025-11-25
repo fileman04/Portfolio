@@ -27,17 +27,19 @@
         width: 100%;
         & > a{
             text-decoration: none;
-            color: aqua;
+            color: rgb(19, 160, 253);
             padding: 10px;
             &:hover{
                 border-top-left-radius: 5px;
                 border-top-right-radius: 5px;
                 background-color: rgb(33, 47, 48);
+                color: aqua;
             }
             &.on-page{
                 border-top-left-radius: 5px;
                 border-top-right-radius: 5px;
                 background-color: rgb(33, 47, 48);
+                color: aqua;
             }
         }
 
@@ -49,18 +51,72 @@
     flex-wrap: nowrap;
     height:100%;
 }
+#p-WebApps #s-grid-container img{
+    border-radius: 10px;
+}
+
+#p-WebApps #s-grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "head head head"
+    "app1 app2 app3"
+    "app4 app5 app6";
+
+       & > #app1{
+        grid-area: app1;
+        font-size: 1rem;
+        margin: 15px
+    }
+       & > #head{
+        grid-area: head;
+        margin: 15px
+       
+    }
+       & > #app2{
+        grid-area: app2;
+        font-size: 1rem;
+        margin: 15px
+    }
+        & > #app3{
+        grid-area: app3;
+        font-size: 1rem;
+        margin: 15px
+    }
+        & > #app4{
+        grid-area: app4;
+        font-size: 1rem;
+        margin: 15px
+    }
+        & > #app5{
+        grid-area: app5;
+        font-size: 1rem;
+        margin: 15px
+    }
+        & > #app6{
+        grid-area: app6;
+        font-size: 1rem;
+        margin: 15px
+    }
+}
 
 .g-footer{
     display: flex;
     justify-content: center;
     font-size: 2rem;
     width: 100%;
+    padding: 15px;
     margin-top: 50px;
     background-color: rgb(5, 4, 75);
-    & > #s-socials a{
+    /* & > #s-socials a{
         text-decoration: none;
         color: aqua;
         padding: 10px 10px 0 10px;
+    } */
+    & > #s-copy{
+        font-size: 1rem;
+        align-self: center;
     }
 }
 
@@ -69,8 +125,9 @@
     font-size: 1.75rem;
 }
 
-#p-WebApps main{
-    font-size: 1.75rem;
+#p-resume #s-main{
+    text-align: center;
+    justify-items: center;
 }
       
 
