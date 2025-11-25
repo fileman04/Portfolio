@@ -67,37 +67,43 @@
        & > #app1{
         grid-area: app1;
         font-size: 1rem;
-        margin: 15px
+        margin: 15px;
+        max-width: 400px;
     }
        & > #head{
         grid-area: head;
-        margin: 15px
+        margin: 15px;
        
     }
        & > #app2{
         grid-area: app2;
         font-size: 1rem;
-        margin: 15px
+        margin: 15px;
+        max-width: 400px;
     }
         & > #app3{
         grid-area: app3;
         font-size: 1rem;
-        margin: 15px
+        margin: 15px;
+        max-width: 400px;
     }
         & > #app4{
         grid-area: app4;
         font-size: 1rem;
-        margin: 15px
+        margin: 15px;
+        max-width: 400px;
     }
         & > #app5{
         grid-area: app5;
         font-size: 1rem;
-        margin: 15px
+        margin: 15px;
+        max-width: 400px;
     }
         & > #app6{
         grid-area: app6;
         font-size: 1rem;
-        margin: 15px
+        margin: 15px;
+        max-width: 400px;
     }
 }
 
@@ -109,14 +115,13 @@
     padding: 15px;
     margin-top: 50px;
     background-color: rgb(5, 4, 75);
-    /* & > #s-socials a{
-        text-decoration: none;
-        color: aqua;
-        padding: 10px 10px 0 10px;
-    } */
     & > #s-copy{
         font-size: 1rem;
         align-self: center;
+    }
+    & > #s-contact{
+        font-size: 1.5rem;
+        margin-left: 50px;
     }
 }
 
