@@ -110,8 +110,8 @@
 
 #p-OtherProjects #s-grid-container{
     display: grid;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 15%;
+    margin-left: 15%;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
     grid-template-areas: 
@@ -175,3 +175,54 @@
 }
       
 
+@media (max-width: 900px){
+    #p-WebApps #s-grid-container{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+        "head head"
+        "app1 app2"
+        "app3 app4"
+        "app5 app6";
+    }
+    #p-home #s-picture{
+        display: none;
+    }
+}
+
+@media (max-width: 750px){
+    .g-header #s-navigation{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    #p-OtherProjects #s-grid-container{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+}
+
+@media (max-width: 600px){
+    #p-WebApps #s-grid-container{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto auto;
+        grid-template-areas: 
+        "head"
+        "app1"
+        "app2"
+        "app3"
+        "app4"
+        "app5"
+        "app6";  
+    }
+    #p-OtherProjects #s-grid-container{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+        "head"
+        "app1"
+        "app2"
+        "app3";
+    }
+}
