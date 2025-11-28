@@ -108,6 +108,10 @@
     }
 }
 
+#p-OtherProjects #s-grid-container img{
+    border-radius: 10px;
+}
+
 #p-OtherProjects #s-grid-container{
     display: grid;
     margin-right: 15%;
