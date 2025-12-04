@@ -179,10 +179,36 @@
     & ul{
         list-style: none;
     }
+    & > .education{
+        border: solid rgb(5, 4, 75) 4px;
+        border-radius: 10px;
+        padding-right: 30px;        
+    }
+    & > .awards{
+        border: solid rgb(5, 4, 75) 4px;
+        border-radius: 10px;
+        padding-right: 30px;        
+    }
+    & > .work{
+        border: solid rgb(5, 4, 75) 4px;
+        border-radius: 10px;
+        padding-right: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    & > .extras{
+        border: solid rgb(5, 4, 75) 4px;
+        border-radius: 10px;
+        padding-right: 30px;
+        margin-top: 20px;
+    }
 }
+
 #p-resume #s-main dt{
     text-decoration: underline;
 }
+
+
       
 
 @media (max-width: 900px){
